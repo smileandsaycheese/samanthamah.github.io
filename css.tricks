@@ -69,8 +69,9 @@ li.dropdown {
   </li>
 </ul>
 
-<h3></h3>
-<p>hover over dropdown bar to visit other pages.</p>
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
 
+</body>
 </body>
 </html>
