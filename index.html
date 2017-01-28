@@ -8,8 +8,6 @@
   </head>
 <body>
 
-<p>Welcome to ..... This is a place where you can share your stories, art, and more with others.</p>
-
 <ul>
   <li><a href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
@@ -75,10 +73,12 @@ div.desc {
 }
 </style>
 <body>
-
-<h2>Dropdown Image</h2>
+  
+<p>Welcome to ..... This is a place where you can share your stories, art, and more with others.</p>
+  
+  <h2>Dropdown Image</h2>
 <p>Move the mouse over the image below to open the dropdown content.</p>
-
+  
 <div class="dropdown">
   <div class="img">
     <img src="https://static.pexels.com/photos/6548/cold-snow-winter-mountain.jpeg" alt="Mountain View">
@@ -87,3 +87,38 @@ div.desc {
   <div class="dropdown-content">
     <div class="desc">Mountain View</div>
   </div>
+  
+<style>
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+<body>
+
+
+<div class="dropdown">
+  <img https://www.nordicvisitor.com/images/iceland/winter/northern-lights-lake-thingvellir-national-park-iceland.jpg>
+ 
+    <img src="https://www.nordicvisitor.com/images/iceland/winter/northern-lights-lake-thingvellir-national-park-iceland.jpg" alt="Northern Lights"
+    <div class="desc">Northern Lights</div>
+  
+
